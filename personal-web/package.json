@@ -1,23 +1,24 @@
 {
-  "name": "portfolio-html",
+  "name": "jyl6198.github.io",
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
-  "type": "module",
   "scripts": {
-    "build": "index.js, transition.js"
+    "build": "index.js, transition.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jyl6198/jyl6198.github.io/tree/main/personal-website"
+    "url": "git+https://github.com/jyl6198/jyl6198.github.io.git"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "sass": "^1.30.0"
+  "bugs": {
+    "url": "https://github.com/jyl6198/jyl6198.github.io/issues"
   },
+  "homepage": "https://github.com/jyl6198/jyl6198.github.io#readme",
   "dependencies": {
-    "@dogstudio/highway": "^2.2.1",
-    "gsap": "^3.5.1"
+    "hyperapp": "^2.0.8",
+    "parcel-bundler": "^1.12.4"
   }
 }
