@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.scss">
+    <title>Projects</title>
+</head>
+<body>
+  <nav>
+    <!-- The pages that we have -->
+    <div class = "nav-bar">
+        <ul class = "nav-list">
+            <li><a class = "nav-links" href = "./" href = "./index.html">Home</a></li>
+            <li><a class = "nav-links" href = "./skills.html">Skills</a></li>
+            <li><a class = "nav-links" href = "./project.html">Project</a></li>
+            <li><a class = "nav-links" href = "./contact.html">Contact</a></li>
+        </ul>
+    </div>
+  </nav>
+    <!-- Where our page transitions will take place -->
+    <main data-router-wrapper> <!-- cannot have another child section-->
+        <!-- we separate home and home content because of the background and opacity-->
+        <section data-router-view="project" class="project">
+          <img class = "project-img" src="./images/aboutimage.png">
+          <div class="project-content">
+            <h2>Projects</h2>
+          <!-- Row 1 of projects -->
+            <div class = "project-row">
+              <div class = "project-images" >
+                <img class = "project-logo" src = "./images/logos/spotify.webp">
+                <div class = "project-overlay overlay-blur">
+                  <div class = "overlay-title">Spotify</div>
+                  <br><br><br><br><br>
+                  <p class = "overlay-info"> This is the spotify app</p>
+                </div>
+              </div>
+              <div class = "project-images">
+                <img class = "project-logo" src = "./images/logos/splendor.png">
+                <div class = "project-overlay overlay-blur">
+                  <div class = "overlay-title">Splendor</div>
+                  <br><br><br><br><br>
+                  <p class = "overlay-info"> This is the Splendor app</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    <script src = "index.js"></script>
+</body>
+</html>
